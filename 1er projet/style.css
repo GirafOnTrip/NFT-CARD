@@ -7,24 +7,21 @@
 }
 
 
-/* LANDMARK */
-
 body{
   
   background-color: hsl(217, 54%, 11%);
   color: aliceblue;
   font-family: 'Outfit', sans-serif;
-
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
   width: 100%;
   min-height: 100vh;
   
 }
-
 
 main{
   
@@ -37,16 +34,8 @@ main{
 }
 
 
-footer{
-  
-  margin-top: 30px;
-  text-align: center;
-  font-size: 0.7em;
-   
-}
-
-
 /* MAIN IMG */
+
 
 .pic1{
   
@@ -87,11 +76,11 @@ footer{
 
 /* BLOC 1 */
 
+
 .bloc1{
   
   text-align: left;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px auto;
   
 }
 
@@ -115,7 +104,7 @@ p{
   color: hsl(215, 51%, 70%);
   font-size: 1.1em;
   font-weight: 300;
-
+  
 }
 
 
@@ -124,8 +113,64 @@ p{
 
 .bloc2{
   
-  display:flex;
+  color: hsl(215, 51%, 70%);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  
+}
+
+li{
+  
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.ETH1, .Time1{
+  
+  margin-right: 7px;
+  
+}
+
+.ETH2{
+  
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  
+}
+
+.Time2{
+  
+  font-weight: 300;
+}
+
+
+/* LINE */
+
+
+.line{
+  
+  margin-bottom: 17px;
+  margin-top: 23px;
+  background-color: #2e415b;
+  height: 1px;
+  width: 100%;
+  
+}
+
+
+/* BLOC 3 */
+
+
+.bloc3{
+  
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 8px;
   
 }
 
@@ -134,71 +179,44 @@ p{
   border: 1px solid;
   border-color: aliceblue;
   border-radius: 20px;
+  margin-right: 16px;
   
 }
 
-.h{
-  
-  color: hsl(178, 100%, 50%);
-  text-align: left;
-  
-}
-
-
-
-
-.line{
-  
-  margin-bottom: 15px;
-  margin-top: 15px;
-  background-color: #2e415b;
-  height: 1px;
-  width: 100%;
-  
-}
-
-
-
-
-.bloc4{
-  
-  font-family: 'Outfit', sans-serif;
-  color: hsl(215, 51%, 70%);
-  
-}
-
-.bloc5{
+.bloc3{
   
   display: flex;
   align-items: center;
-  
-}
-
-.bloc6{
-  
-  font-family: 'Outfit', sans-serif;
   color: hsl(215, 51%, 70%);
   
 }
 
-.ETH1, .horloge{
-  
-  margin-right: 4px;
-  
-}
-
-.avatar{
-  
-  margin-right: 12px;
-  
-}
-
-.okok{
+.JW{
   
   color: aliceblue;
+  margin-left: 4px;
 }
 
-.okok:hover{
+.JW:hover{
   
   color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+
+/* FOOTER */
+
+
+footer{
+  
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.7em;
+  
+}
+
+a{
+  
+  color:hsl(178, 100%, 50%)
+  
 }
