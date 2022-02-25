@@ -1,169 +1,204 @@
 
 *{
+  
   margin: 0;
   padding: 0;
-  }
+  
+}
 
+
+/* LANDMARK */
 
 body{
+  
+  background-color: hsl(217, 54%, 11%);
+  color: aliceblue;
+  font-family: 'Outfit', sans-serif;
 
-background-color: hsl(217, 54%, 11%);
-color: aliceblue;
-margin:auto;
-margin-top: 8%;
-max-width: 100vh   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 100vh;
+  
 }
 
 
-section{
-
-background-color:  hsl(216, 50%, 16%);
-border-radius: 14px; 
-padding: 25px; 
-width: 300px;
-margin: 20px auto; 
-box-shadow: -17px 40px hsl(216, 58%, 10%),17px 40px hsl(216, 58%, 10%), -45px 65px  hsl(218, 52%, 11%), 45px 65px  hsl(218, 52%, 11%),45px -20px  hsl(218, 52%, 11%),-45px -20px  hsl(218, 52%, 11%)
+main{
+  
+  background-color:  hsl(216, 50%, 16%);
+  border-radius: 14px; 
+  padding: 25px; 
+  width: 300px;
+  box-shadow: -17px 40px hsl(216, 58%, 10%),17px 40px hsl(216, 58%, 10%), -45px 65px  hsl(218, 52%, 11%), 45px 65px  hsl(218, 52%, 11%),45px -20px  hsl(218, 52%, 11%),-45px -20px  hsl(218, 52%, 11%)
+  
 }
 
 
-
- .pic1{
-
-width: 300px;
-border-radius: 8px;
-position: relative;
+footer{
+  
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.7em;
+   
 }
 
- .background{
 
-width: 300px;
-height: 300px;
-background-color:hsl(178, 100%, 50%) ;
-visibility:hidden;
-opacity:0.5;
-margin-top:-305px;
-border-radius: 8px;
+/* MAIN IMG */
+
+.pic1{
+  
+  width: 300px;
+  border-radius: 8px;
+  position: relative;
+  
 }
-
 
 .pic2{
+  
+  position: absolute;
+  visibility: hidden;
+  margin-top: -180px;
+  margin-left: 127px;
+  
+}
 
-position: absolute;
-visibility: hidden;
-margin-top: -180px;
-margin-left: 127px;
- 
+.background{
+  
+  width: 300px;
+  height: 300px;
+  background-color:hsl(178, 100%, 50%) ;
+  visibility:hidden;
+  opacity:0.5;
+  margin-top:-305px;
+  border-radius: 8px;
+  
+}
+
+.Img:hover .pic2, .Img:hover .background{
+  
+  visibility: visible;
+  cursor: pointer;
+  
 }
 
 
-.item:hover .pic2, .item:hover .background{
+/* BLOC 1 */
 
-visibility: visible;
+.bloc1{
+  
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+
+h1{
+  
+  display:inline-block;
+  margin-bottom: 18px;
+  font-size: 1.345em;
+  
+}
+
+h1:hover{
+  
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  
+}
+
+p{
+  
+  color: hsl(215, 51%, 70%);
+  font-size: 1.1em;
+  font-weight: 300;
+
+}
+
+
+/* BLOC 2 */
+
+
+.bloc2{
+  
+  display:flex;
+  justify-content: space-between;
+  
 }
 
 .avatar{
-
-border: 1px solid;
-border-color: aliceblue;
-border-radius: 20px;
+  
+  border: 1px solid;
+  border-color: aliceblue;
+  border-radius: 20px;
+  
 }
 
 .h{
-color: hsl(178, 100%, 50%);
-text-align: left;
-font-family: 'Outfit', sans-serif;
+  
+  color: hsl(178, 100%, 50%);
+  text-align: left;
+  
 }
 
-.bloc1{
 
-text-align: left;
-margin-top: 20px;
-margin-bottom: 25px;
-}
 
 
 .line{
-
-margin-bottom: 15px;
-margin-top: 15px;
-background-color: #2e415b;
-height: 1px;
-width: 100%;
-}
-
-.white{
-
-font-family: 'Outfit', sans-serif;
-margin-bottom: 25px;
-}
-
-.white:hover{
-
-color: hsl(178, 100%, 50%);
+  
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: #2e415b;
+  height: 1px;
+  width: 100%;
+  
 }
 
 
-.p1{
-
-font-family: 'Outfit', sans-serif;
-color: hsl(215, 51%, 70%);
-}
-
-.bloc2{
-
-display:flex;
-justify-content: space-between;
-}
-
-.bloc2 div{
-
-display:flex;
-}
 
 
 .bloc4{
-
-font-family: 'Outfit', sans-serif;
-color: hsl(215, 51%, 70%);
+  
+  font-family: 'Outfit', sans-serif;
+  color: hsl(215, 51%, 70%);
+  
 }
 
 .bloc5{
-
-display: flex;
-align-items: center;
+  
+  display: flex;
+  align-items: center;
+  
 }
 
 .bloc6{
-
-font-family: 'Outfit', sans-serif;
-color: hsl(215, 51%, 70%);
+  
+  font-family: 'Outfit', sans-serif;
+  color: hsl(215, 51%, 70%);
+  
 }
 
-.ethereum1, .horloge{
-
-margin-right: 4px;
+.ETH1, .horloge{
+  
+  margin-right: 4px;
+  
 }
 
 .avatar{
-
-margin-right: 12px;
-
+  
+  margin-right: 12px;
+  
 }
 
 .okok{
-
-color: aliceblue;
+  
+  color: aliceblue;
 }
 
 .okok:hover{
-
-color: hsl(178, 100%, 50%);
-}
-
-footer{
-
-  margin-top: 30px;
-  font-family: 'Outfit', sans-serif;
-  margin-bottom: 40px;
   
+  color: hsl(178, 100%, 50%);
 }
