@@ -6,7 +6,6 @@
   
 }
 
-
 body{
   
   background-color: hsl(217, 54%, 11%);
@@ -36,10 +35,9 @@ main{
 
 /* MAIN IMG */
 
-
 .pic1{
   
-  width: 300px;
+  max-width: 300px;
   border-radius: 8px;
   position: relative;
   
@@ -58,7 +56,7 @@ main{
   
   width: 300px;
   height: 300px;
-  background-color:hsl(178, 100%, 50%) ;
+  background-color:hsla(178, 100%, 50%, 1);
   visibility:hidden;
   opacity:0.5;
   margin-top:-305px;
@@ -73,9 +71,15 @@ main{
   
 }
 
+a{
+  
+  text-decoration: none;
+  color: hsl(178, 100%, 50%);
+  
+}
+
 
 /* BLOC 1 */
-
 
 .bloc1{
   
@@ -92,7 +96,13 @@ h1{
   
 }
 
-h1:hover{
+.Equi{
+
+  color: aliceblue;
+
+}
+
+.Equi:hover{
   
   color: hsl(178, 100%, 50%);
   cursor: pointer;
@@ -110,7 +120,6 @@ p{
 
 /* BLOC 2 */
 
-
 .bloc2{
   
   color: hsl(215, 51%, 70%);
@@ -121,13 +130,12 @@ p{
   
 }
 
-li{
+li {
   
   display: flex;
   align-items: center;
   
 }
-
 
 .ETH1, .Time1{
   
@@ -148,27 +156,10 @@ li{
 }
 
 
-/* LINE */
-
-
-.line{
-  
-  margin-bottom: 17px;
-  margin-top: 23px;
-  background-color: #2e415b;
-  height: 1px;
-  width: 100%;
-  
-}
-
-
 /* BLOC 3 */
-
 
 .bloc3{
   
-  display: flex;
-  align-items: center;
   color: hsl(215, 51%, 70%);
   margin-bottom: 8px;
   
@@ -188,6 +179,9 @@ li{
   display: flex;
   align-items: center;
   color: hsl(215, 51%, 70%);
+  border-top: solid 1px #2e415b;
+  margin-top: 1.55em;
+  padding-top: 1em;
   
 }
 
@@ -206,7 +200,6 @@ li{
 
 /* FOOTER */
 
-
 footer{
   
   margin-top: 30px;
@@ -215,8 +208,4 @@ footer{
   
 }
 
-a{
-  
-  color:hsl(178, 100%, 50%)
-  
-}
+
